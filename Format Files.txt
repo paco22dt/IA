@@ -1,0 +1,7 @@
+User
+id_user|username|password|type
+
+User_Book
+
+
+Book
