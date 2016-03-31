@@ -1,0 +1,39 @@
+package files;
+import java.io.*;
+import java.nio.file.Paths;
+
+import javax.swing.*;
+import javax.swing.JOptionPane;
+
+public class FilesManager {
+	String rute=Paths.get("").toAbsolutePath().toString();
+	String ruteUsers=rute+"\\rsc\\data\\Users";
+	String ruteBooks=rute+"";
+	String ruteConsults = rute+"";
+	String ErrorMessage;
+	
+	public FilesManager()
+	{
+		ErrorMessage=ruteUsers;
+	}
+	
+	public int Login(String _username, String _password)
+	{
+		try
+		{
+			BufferedReader Lector = new BufferedReader( new InputStreamReader(new FileInputStream(ruteUsers), "8859_1"));
+			
+		}
+		catch(Exception ex)
+		{
+			ErrorMessage="Error with Users.txt at login";
+		}
+		return 0;
+	}
+	
+	public String GetErrorMessage()
+	{
+		return ErrorMessage;
+	}
+
+}

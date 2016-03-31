@@ -72,7 +72,7 @@ public class Interface extends JFrame {
 					int res = manager.Login(_username, _username);
 					if(res==0)
 					{
-						JOptionPane.showMessageDialog(rootPane, "Admin");
+						new admin().setVisible(true);
 					}
 					else if(res==1)
 					{
