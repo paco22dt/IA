@@ -63,13 +63,25 @@ public class Interface extends JFrame {
 			 * Log in button
 			 */
 			public void actionPerformed(ActionEvent arg0) {
-				
-		            //Getting a connection to the database. Change the URL parameters
+				FilesManager manager = new FilesManager();
+		        //Getting a connection to the database. Change the URL parameters
 				String _password = tfPassword.getText();
 				String _username=tfUsername.getText();
-				if(!_password.isEmpty() || _username.isEmpty())
+				if(!_password.isEmpty() || !_username.isEmpty())
 				{
-					
+					int res = manager.Login(_username, _username);
+					if(res==0)
+					{
+						JOptionPane.showMessageDialog(rootPane, "Admin");
+					}
+					else if(res==1)
+					{
+						JOptionPane.showMessageDialog(rootPane, "User");
+					}
+					else
+					{
+						JOptionPane.showMessageDialog(rootPane, manager.GetMessage());
+					}
 				}
 				else
 				{
