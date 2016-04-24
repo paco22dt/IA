@@ -69,7 +69,7 @@ public class Interface extends JFrame {
 				String _username=tfUsername.getText();
 				if(!_password.isEmpty() || !_username.isEmpty())
 				{
-					int res = manager.Login(_username, _username);
+					int res = manager.Login(_username, _password);
 					if(res==0)
 					{
 						new admin().setVisible(true);
