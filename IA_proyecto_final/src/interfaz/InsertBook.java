@@ -1,0 +1,88 @@
+package interfaz;
+
+import javax.swing.JPanel;
+import java.awt.GridLayout;
+import javax.swing.border.TitledBorder;
+import java.awt.Color;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+
+public class InsertBook extends JPanel {
+	private JTextField textField;
+	private JTextField textField_1;
+	private JLabel lblEdicin;
+	private JTextField textField_2;
+	private JLabel lblAoDePublicacion;
+	private JTextField textField_3;
+	private JLabel lblResumen;
+	private JTextField textField_4;
+	private JLabel lblCategoras;
+	private JTextField textField_5;
+	private JLabel lblPalabrasClave;
+	private JTextField textField_6;
+	private JButton btnGuardarEIniciar;
+
+	/**
+	 * Create the panel.
+	 */
+	public InsertBook() {
+		setBackground(new Color(50, 205, 50));
+		setBorder(new TitledBorder(null, "Insertar datos del libro", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		setLayout(new GridLayout(8, 2, 20, 20));
+		
+		JLabel lblTtulo = new JLabel("T\u00EDtulo");
+		add(lblTtulo);
+		
+		textField = new JTextField();
+		add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblAutores = new JLabel("Autor(es)");
+		add(lblAutores);
+		
+		textField_1 = new JTextField();
+		add(textField_1);
+		textField_1.setColumns(10);
+		
+		lblEdicin = new JLabel("Edici\u00F3n");
+		add(lblEdicin);
+		
+		textField_2 = new JTextField();
+		add(textField_2);
+		textField_2.setColumns(10);
+		
+		lblAoDePublicacion = new JLabel("A\u00F1o de publicacion");
+		add(lblAoDePublicacion);
+		
+		textField_3 = new JTextField();
+		add(textField_3);
+		textField_3.setColumns(10);
+		
+		lblResumen = new JLabel("Resumen");
+		add(lblResumen);
+		
+		textField_4 = new JTextField();
+		add(textField_4);
+		textField_4.setColumns(10);
+		
+		lblCategoras = new JLabel("Categor\u00EDa(s)");
+		add(lblCategoras);
+		
+		textField_5 = new JTextField();
+		add(textField_5);
+		textField_5.setColumns(10);
+		
+		lblPalabrasClave = new JLabel("Palabra(s) Clave");
+		add(lblPalabrasClave);
+		
+		textField_6 = new JTextField();
+		add(textField_6);
+		textField_6.setColumns(10);
+		
+		btnGuardarEIniciar = new JButton("Guardar e iniciar recomendacion");
+		add(btnGuardarEIniciar);
+
+	}
+
+}
