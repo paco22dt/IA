@@ -1,0 +1,51 @@
+package classes
+
+class engine {
+  
+  def Prueba(hola:Int):Int=
+  {
+    var sum:Int=0
+    sum=hola+hola
+    return sum
+  }
+  
+  var poneracion_categoria:Double=0.45
+  var poneracion_autor:Double=0.45
+  var poneracion_palabra_clave:Double=0.1
+  
+  def Similitud():Double=
+  {
+    var similitud:Double = SimilitudCategoria(null, null, null) + SimilitudAutor(null, null, null) + SimilitudPalabrasClave(null, null, null)
+    return similitud
+  }
+  
+  //Similitud para la categoria
+  def SimilitudCategoria(categoria_libro:List[String], categoria_lector:List[String], poneracion_lector:List[Int]):Double=
+  {
+    var cont_categorias:Int=0;
+    for(categoria <- categoria_libro)
+    {
+      var index:Int=categoria_lector.indexOf(categoria)
+      if(!index.equals(-1)){
+        cont_categorias+=1
+        var suma:Int = poneracion_lector.sum
+        
+      }
+    }
+    return 0;
+  }
+  //Similitud para el autor
+  def SimilitudAutor(autor_libro:List[Int], autor_lector:List[Int], poneracion_lector:List[Int]):Double=
+  {
+    
+    return 0;
+  }
+  //Similitud para las palabras clave
+  def SimilitudPalabrasClave(palabrasclave_libro:List[Int], palabrasclave_lector:List[Int], poneracion_lector:List[Int]):Double=
+  {
+    
+    return 0;
+  }
+  
+  
+}

@@ -27,7 +27,7 @@ public class Interface extends JFrame {
 	private JPanel contentPane;
 	private JTextField tfUsername;
 	private JPasswordField tfPassword;
-
+	public static DataBase db = null;
 	/**
 	 * Launch the application.
 	 */
@@ -36,6 +36,7 @@ public class Interface extends JFrame {
 			public void run() {
 				try {
 					Interface frame = new Interface();
+					db = new DataBase();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -46,7 +47,9 @@ public class Interface extends JFrame {
 
 	/**
 	 * Create the frame.
+	 * @throws ClassNotFoundException 
 	 */
+		
 	public Interface() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -63,29 +66,30 @@ public class Interface extends JFrame {
 			 * Log in button
 			 */
 			public void actionPerformed(ActionEvent arg0) {
-				FilesManager manager = new FilesManager();
-		        //Getting a connection to the database. Change the URL parameters
-				String _password = tfPassword.getText();
-				String _username=tfUsername.getText();
-				if(!_password.isEmpty() || !_username.isEmpty())
+				try
 				{
-					int res = manager.Login(_username, _password);
-					if(res==0)
+			        //Getting a connection to the database. Change the URL parameters
+					String _password = tfPassword.getText();
+					String _username=tfUsername.getText();
+					if(!_password.isEmpty() || !_username.isEmpty())
 					{
-						new admin().setVisible(true);
-					}
-					else if(res==1)
-					{
-						JOptionPane.showMessageDialog(rootPane, "User");
+						if(db.Login(_username, _password))
+						{
+							//Login succesful
+						}
+						else
+						{
+							
+						}
 					}
 					else
 					{
-						JOptionPane.showMessageDialog(rootPane, manager.GetMessage());
+						JOptionPane.showMessageDialog(rootPane, "Ingrese nombre de usuario y contraseña.");
 					}
 				}
-				else
+				catch(Exception e)
 				{
-					JOptionPane.showMessageDialog(rootPane, "Ingrese nombre de usuario y contraseña.");
+					JOptionPane.showMessageDialog(rootPane, e.getMessage());
 				}
 			}
 			
