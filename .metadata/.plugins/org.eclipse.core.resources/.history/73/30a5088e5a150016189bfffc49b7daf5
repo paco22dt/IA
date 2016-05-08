@@ -1,0 +1,71 @@
+package classes
+
+class engine {
+  
+  def Prueba(cat_lib:List[String], cat_lec:List[String], pon_le_cat:List[Int], au_lib:List[String], au_lec:List[String],  pon_le_aut:List[Int], pc_pc:List[String], pc_lec:List[String],  pon_le_pc:List[Int]):Double=
+  {
+    var similitud:Double = SimilitudCategoria(cat_lib, cat_lec, pon_le_cat) + SimilitudAutor(au_lib, au_lec, pon_le_aut) + SimilitudPalabrasClave(pc_pc, pc_lec, pon_le_pc);
+    return similitud;
+  }
+  
+  def Similitud(cat_lib:List[String], cat_lec:List[String], pon_le_cat:List[Int], au_lib:List[String], au_lec:List[String],  pon_le_aut:List[Int], pc_pc:List[String], pc_lec:List[String],  pon_le_pc:List[Int]):Double=
+  {
+    var similitud:Double = SimilitudCategoria(cat_lib, cat_lec, pon_le_cat) + SimilitudAutor(au_lib, au_lec, pon_le_aut) + SimilitudPalabrasClave(pc_pc, pc_lec, pon_le_pc);
+    return similitud;
+  }
+  
+  //Similitud para la categoria
+  def SimilitudCategoria(categoria_libro:List[String], categoria_lector:List[String], poneracion_lector:List[Int]):Double=
+  {
+    var cont_categorias:Double=0;
+    var poneracion:Double=0;
+    for(categoria <- categoria_libro)
+    {
+      var index:Int=categoria_lector.indexOf(categoria);
+      if(!index.equals(-1)){
+        cont_categorias+=1;
+        poneracion+=poneracion_lector(index)/poneracion_lector.sum;
+      }
+    }
+    poneracion=poneracion*(cont_categorias/categoria_libro.length)*poneracion_categoria;
+    return poneracion;
+  }
+  //Similitud para el autor
+  def SimilitudAutor(autor_libro:List[String], autor_lector:List[String], poneracion_lector:List[Int]):Double=
+  {
+    var cont_categorias:Double=0;
+    var poneracion:Double=0;
+    for(categoria <- autor_libro)
+    {
+      var index:Int=autor_lector.indexOf(categoria);
+      if(!index.equals(-1)){
+        cont_categorias+=1;
+        poneracion+=poneracion_lector(index)/poneracion_lector.sum;
+      }
+    }
+    poneracion=poneracion*(cont_categorias/autor_libro.length)*poneracion_autor;
+    return poneracion;
+  }
+  //Similitud para las palabras clave
+  def SimilitudPalabrasClave(palabrasclave_libro:List[String], palabrasclave_lector:List[String], poneracion_lector:List[Int]):Double=
+  {
+    var cont_categorias:Double=0;
+    var poneracion:Double=0;
+    for(categoria <- palabrasclave_libro)
+    {
+      var index:Int=palabrasclave_lector.indexOf(categoria);
+      if(!index.equals(-1)){
+        cont_categorias+=1;
+        poneracion+=poneracion_lector(index)/poneracion_lector.sum;
+      }
+    }
+    poneracion=poneracion*(cont_categorias/palabrasclave_libro.length)*poneracion_palabra_clave;
+    return poneracion;
+  }
+  var poneracion_categoria:Double=0.45
+  var poneracion_autor:Double=0.45
+  var poneracion_palabra_clave:Double=0.1
+  
+  
+  
+}

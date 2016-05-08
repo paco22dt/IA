@@ -1898,3 +1898,137 @@ java.lang.NullPointerException
 2016-04-29 19:24:47,309  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN runs on platform default installation.
 2016-04-29 20:09:33,320  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN has platform default sourceLevel.
 2016-04-29 20:09:33,323  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:10:48,334  WARN [main] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:10:48,345  WARN [main] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:10:56,651  WARN [Worker-3] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:10:56,657  WARN [Worker-3] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:10:57,423  WARN [Worker-3] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:10:57,423  WARN [Worker-3] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:11:27,477  WARN [Worker-1] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:11:27,477  WARN [Worker-1] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:11:27,711  WARN [Worker-6] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:11:27,711  WARN [Worker-6] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:30:00,159  WARN [main] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:30:00,159  WARN [main] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 22:53:49,883  WARN [Worker-6] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 22:53:49,883  WARN [Worker-6] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-07 23:16:49,876  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-07 23:16:49,881  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 08:07:28,000  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 08:07:28,040  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 08:10:09,949  WARN [Worker-3] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 08:10:09,950  WARN [Worker-3] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 08:10:10,305  WARN [Worker-3] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 08:10:10,305  WARN [Worker-3] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 08:10:10,666  WARN [Worker-2] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 08:10:10,666  WARN [Worker-2] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 08:10:12,297  WARN [Java indexing] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 08:10:12,297  WARN [Java indexing] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 13:00:23,000  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 13:00:23,001  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 13:49:43,286  WARN [main] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 13:49:43,287  WARN [main] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 13:50:49,852  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-05-08 13:50:50,067  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-05-08 13:59:31,859 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 13:59:31,860 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 13:59:31,861 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:14:14,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:14:14,939 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:14:14,939 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:17:35,576  WARN [Worker-6] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:17:35,576  WARN [Worker-6] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:18:59,419  WARN [Worker-25] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:18:59,420  WARN [Worker-25] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:20:08,005  WARN [Worker-32] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:20:08,005  WARN [Worker-32] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:20:50,078  WARN [Worker-17] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:20:50,078  WARN [Worker-17] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:21:46,982  WARN [Worker-25] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:21:46,983  WARN [Worker-25] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:22:15,764  WARN [Worker-20] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:22:15,764  WARN [Worker-20] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:22:56,007  WARN [Worker-21] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:22:56,007  WARN [Worker-21] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:24:06,389  WARN [Worker-20] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:24:06,389  WARN [Worker-20] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:26:59,296  WARN [Worker-32] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:26:59,297  WARN [Worker-32] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:28:23,295  WARN [Worker-31] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:28:23,295  WARN [Worker-31] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:29:24,113  WARN [Worker-31] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:29:24,114  WARN [Worker-31] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:29:34,016  WARN [Worker-6] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:29:34,016  WARN [Worker-6] - ScalaProject - Project engineBN runs on platform default installation.
+2016-05-08 14:33:05,109  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1097
+2016-05-08 14:33:06,667  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1116
+2016-05-08 14:33:08,690  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1125
+2016-05-08 14:33:13,259  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:33:13,259  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:33:14,335  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 748
+2016-05-08 14:33:14,336  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 748
+2016-05-08 14:33:14,337  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1125
+2016-05-08 14:33:16,370  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:33:16,372  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:36:37,101  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:36:37,102  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1123
+2016-05-08 14:41:38,089 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,090 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,091 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,092 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,092 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,093 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,093 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,094 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,095 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,095 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,095 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,096 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,097 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,098 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,098 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,100 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,101 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,101 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,103 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,103 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,103 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,104 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,104 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,104 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,105 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,105 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,105 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,106 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,107 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,107 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,107 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,109 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:41:38,110 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-05-08 14:42:06,871  WARN [Worker-20] - ScalaProject - Project engineBN has platform default sourceLevel.
+2016-05-08 14:42:06,871  WARN [Worker-20] - ScalaProject - Project engineBN runs on platform default installation.

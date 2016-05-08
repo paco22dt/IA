@@ -1,0 +1,122 @@
+package interfaz;
+
+import javax.swing.JPanel;
+import java.awt.Color;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import java.awt.Font;
+import java.awt.GridLayout;
+import javax.swing.border.TitledBorder;
+
+import files.DataBase;
+
+import javax.swing.UIManager;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Login extends JPanel {
+	private JTextField txtUser;
+	private JTextField txtContraseña;
+	private JPanel panel;
+	private JLabel lblCrearCuenta;
+	private JLabel lblNewLabel_1;
+	private JTextField txtNuevoUsuario;
+	private JLabel lblNewLabel_2;
+	private JTextField txtContraseña_nueva;
+	private JButton btnIngresar;
+	private JButton btnCrearNuevaCuenta;
+
+	/**
+	 * Create the panel.
+	 */
+	public Login() {
+		setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Login", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(255, 255, 255)));
+		setBackground(new Color(25, 25, 112));
+		setLayout(new GridLayout(2, 2, 5, 5));
+		
+		JLabel lblUsuario = new JLabel("Usuario");
+		lblUsuario.setForeground(new Color(255, 255, 255));
+		lblUsuario.setFont(new Font("Tahoma", Font.PLAIN, 17));
+		add(lblUsuario);
+		
+		txtUser = new JTextField();
+		add(txtUser);
+		txtUser.setColumns(10);
+		
+		panel = new JPanel();
+		panel.setBackground(new Color(192, 192, 192));
+		add(panel);
+		
+		lblCrearCuenta = new JLabel("Crear cuenta:");
+		lblCrearCuenta.setFont(new Font("Tahoma", Font.BOLD, 13));
+		panel.add(lblCrearCuenta);
+		
+		lblNewLabel_1 = new JLabel("Usuario");
+		panel.add(lblNewLabel_1);
+		
+		txtNuevoUsuario = new JTextField();
+		panel.add(txtNuevoUsuario);
+		txtNuevoUsuario.setColumns(10);
+		
+		lblNewLabel_2 = new JLabel("Contrase\u00F1a");
+		panel.add(lblNewLabel_2);
+		
+		txtContraseña_nueva = new JTextField();
+		panel.add(txtContraseña_nueva);
+		txtContraseña_nueva.setColumns(10);
+		
+		btnCrearNuevaCuenta = new JButton("Crear nueva cuenta");
+		panel.add(btnCrearNuevaCuenta);
+		
+		JLabel lblNewLabel = new JLabel("Contrase\u00F1a");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblNewLabel.setForeground(new Color(255, 255, 255));
+		add(lblNewLabel);
+		
+		txtContraseña = new JTextField();
+		add(txtContraseña);
+		txtContraseña.setColumns(10);
+		
+		btnIngresar = new JButton("Ingresar");
+		btnIngresar.addActionListener(new ActionListener() {
+			//Login
+			public void actionPerformed(ActionEvent arg0) {
+				DataBase db = new DataBase();
+				String user = txtUser.getText();
+				String pass = txtContraseña.getText();
+				if(!user.equals("") && !pass.equals(""))
+				{
+					try
+					{
+						db.connectToDB();
+						int id = db.Login(user, pass);
+						if(id != 0)
+						{
+							InterfaceBook ib= new InterfaceBook();
+							ib.setVisible(true);
+						}
+						else
+						{
+							JOptionPane.showMessageDialog(getRootPane(), "Datos erroneos.");
+						}
+					}
+					catch (Exception ex)
+					{
+						JOptionPane.showMessageDialog(getRootPane(), ex.getMessage());
+					}
+				}
+				else
+				{
+					JOptionPane.showMessageDialog(getRootPane(), "Datos incompletos.");
+				}
+			}
+		});
+		btnIngresar.setFont(new Font("Tahoma", Font.BOLD, 16));
+		add(btnIngresar);
+
+	}
+
+}
